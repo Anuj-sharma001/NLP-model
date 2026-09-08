@@ -1,0 +1,45 @@
+# Virtual Environments
+.venv/
+**/.venv/
+venv/
+**/venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment files
+.env
+**/.env
+.env.local
+**/.env.local
+
+# Pytest & test cache
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+**/*.log
+logs/
+**/logs/
+
+# Model checkpoints and weights (keep gitkeep)
+data/models/*
+!data/models/.gitkeep
+nlp-service/data/models/*
+!nlp-service/data/models/.gitkeep
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+**/.vscode/
+.idea/

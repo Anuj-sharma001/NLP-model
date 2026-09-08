@@ -1,0 +1,282 @@
+{
+  "version": "1.0.0",
+  "description": "SAKYTI Canonical Multilingual & Ayurvedic Domain Language Configuration",
+  "default_ui_language": "en",
+  "canonical_knowledge_language": "sa",
+  "languages": [
+    {
+      "code": "sa",
+      "iso_639_3": "san",
+      "name": "Sanskrit",
+      "native_name": "संस्कृतम्",
+      "native_script": "Devanagari",
+      "script_code": "Deva",
+      "indictrans2_tag": "san_Deva",
+      "indiclid_label_native": "san_Deva",
+      "indiclid_label_roman": "san_Latn",
+      "supports_romanized": true,
+      "is_user_facing": false,
+      "is_ayurveda_knowledge_source": true,
+      "domain_role": "canonical_knowledge_source",
+      "special_domain_treatment": {
+        "is_primary_ayurvedic_root": true,
+        "description": "Canonical classical language of primary Ayurvedic foundational treatises (Brihat Trayi: Charaka Samhita, Sushruta Samhita, Ashtanga Hridaya; Laghu Trayi). Treated with zero-corruption terminology preservation.",
+        "preservation_rules": [
+          "Preserve canonical root forms and terms (e.g. Vata, Pitta, Kapha, Prakriti, Agni, Ojas, Dhatu, Triphala, Guna, Rasa, Vipaka, Virya, Srotas).",
+          "Prevent destructive colloquial translation of medical, physiological, and philosophical terms.",
+          "Maintain Sanskrit diacritical or IAST/Devanagari lexical anchors during Indic-English translation pipelines."
+        ]
+      }
+    },
+    {
+      "code": "en",
+      "iso_639_3": "eng",
+      "name": "English",
+      "native_name": "English",
+      "native_script": "Latin",
+      "script_code": "Latn",
+      "indictrans2_tag": "eng_Latn",
+      "indiclid_label_native": "eng_Latn",
+      "indiclid_label_roman": null,
+      "supports_romanized": false,
+      "is_user_facing": true,
+      "is_ayurveda_knowledge_source": false,
+      "domain_role": "user_facing_interface",
+      "special_domain_treatment": {
+        "is_primary_ayurvedic_root": false,
+        "description": "Primary lingua franca for user consultations, medical summaries, and clinician explanations.",
+        "preservation_rules": [
+          "Ayurvedic terms must retain canonical capitalization and spelling when rendered in English."
+        ]
+      }
+    },
+    {
+      "code": "hi",
+      "iso_639_3": "hin",
+      "name": "Hindi",
+      "native_name": "हिन्दी",
+      "native_script": "Devanagari",
+      "script_code": "Deva",
+      "indictrans2_tag": "hin_Deva",
+      "indiclid_label_native": "hin_Deva",
+      "indiclid_label_roman": "hin_Latn",
+      "supports_romanized": true,
+      "is_user_facing": true,
+      "is_ayurveda_knowledge_source": true,
+      "domain_role": "user_facing_and_secondary_commentary",
+      "special_domain_treatment": {
+        "is_primary_ayurvedic_root": false,
+        "description": "Widely spoken consultation language with extensive modern Ayurvedic commentaries, pharmacopeias, and clinical literature.",
+        "preservation_rules": [
+          "Preserve Tatsama Ayurvedic vocabulary without colloquial Hindi corruption."
+        ]
+      }
+    },
+    {
+      "code": "ta",
+      "iso_639_3": "tam",
+      "name": "Tamil",
+      "native_name": "தமிழ்",
+      "native_script": "Tamil",
+      "script_code": "Taml",
+      "indictrans2_tag": "tam_Taml",
+      "indiclid_label_native": "tam_Tamil",
+      "indiclid_label_roman": "tam_Latn",
+      "supports_romanized": true,
+      "is_user_facing": true,
+      "is_ayurveda_knowledge_source": true,
+      "domain_role": "user_facing_and_siddha_bridge",
+      "special_domain_treatment": {
+        "is_primary_ayurvedic_root": false,
+        "description": "User-facing patient language and linguistic bridge to allied classical Siddha medicine literature.",
+        "preservation_rules": [
+          "Preserve Ayurvedic & Siddha cognates (Vatham, Pitham, Kabam)."
+        ]
+      }
+    },
+    {
+      "code": "te",
+      "iso_639_3": "tel",
+      "name": "Telugu",
+      "native_name": "తెలుగు",
+      "native_script": "Telugu",
+      "script_code": "Telu",
+      "indictrans2_tag": "tel_Telu",
+      "indiclid_label_native": "tel_Telu",
+      "indiclid_label_roman": "tel_Latn",
+      "supports_romanized": true,
+      "is_user_facing": true,
+      "is_ayurveda_knowledge_source": false,
+      "domain_role": "user_facing_interface",
+      "special_domain_treatment": {
+        "is_primary_ayurvedic_root": false,
+        "description": "Primary user-facing language for South Indic regional consultations.",
+        "preservation_rules": [
+          "Preserve Sanskrit-origin Ayurvedic medical terminology in Telugu orthography."
+        ]
+      }
+    },
+    {
+      "code": "bn",
+      "iso_639_3": "ben",
+      "name": "Bengali",
+      "native_name": "বাংলা",
+      "native_script": "Bengali",
+      "script_code": "Beng",
+      "indictrans2_tag": "ben_Beng",
+      "indiclid_label_native": "ben_Beng",
+      "indiclid_label_roman": "ben_Latn",
+      "supports_romanized": true,
+      "is_user_facing": true,
+      "is_ayurveda_knowledge_source": false,
+      "domain_role": "user_facing_interface",
+      "special_domain_treatment": {
+        "is_primary_ayurvedic_root": false,
+        "description": "Primary user-facing language for East Indic regional patient queries.",
+        "preservation_rules": [
+          "Preserve Ayurvedic technical terms in Bengali script."
+        ]
+      }
+    },
+    {
+      "code": "mr",
+      "iso_639_3": "mar",
+      "name": "Marathi",
+      "native_name": "मराठी",
+      "native_script": "Devanagari",
+      "script_code": "Deva",
+      "indictrans2_tag": "mar_Deva",
+      "indiclid_label_native": "mar_Deva",
+      "indiclid_label_roman": "mar_Latn",
+      "supports_romanized": true,
+      "is_user_facing": true,
+      "is_ayurveda_knowledge_source": false,
+      "domain_role": "user_facing_interface",
+      "special_domain_treatment": {
+        "is_primary_ayurvedic_root": false,
+        "description": "User-facing patient language in Western India, sharing Devanagari script with Sanskrit and Hindi.",
+        "preservation_rules": [
+          "Differentiate Marathi colloquialisms from Sanskrit Ayurvedic canonical definitions."
+        ]
+      }
+    },
+    {
+      "code": "ml",
+      "iso_639_3": "mal",
+      "name": "Malayalam",
+      "native_name": "മലയാളം",
+      "native_script": "Malayalam",
+      "script_code": "Mlym",
+      "indictrans2_tag": "mal_Mlym",
+      "indiclid_label_native": "mal_Mlym",
+      "indiclid_label_roman": "mal_Latn",
+      "supports_romanized": true,
+      "is_user_facing": false,
+      "is_ayurveda_knowledge_source": true,
+      "domain_role": "regional_ayurveda_tradition",
+      "special_domain_treatment": {
+        "is_primary_ayurvedic_root": false,
+        "description": "Home of the Ashtavaidya Ayurvedic tradition with extensive classical Malayalam commentaries and treatment protocols.",
+        "preservation_rules": [
+          "Support classical Kerala Ayurvedic nomenclature and preparation terminology."
+        ]
+      }
+    },
+    {
+      "code": "gu",
+      "iso_639_3": "guj",
+      "name": "Gujarati",
+      "native_name": "ગુજરાતી",
+      "native_script": "Gujarati",
+      "script_code": "Gujr",
+      "indictrans2_tag": "guj_Gujr",
+      "indiclid_label_native": "guj_Gujr",
+      "indiclid_label_roman": "guj_Latn",
+      "supports_romanized": true,
+      "is_user_facing": false,
+      "is_ayurveda_knowledge_source": false,
+      "domain_role": "supported_indic_language",
+      "special_domain_treatment": null
+    },
+    {
+      "code": "kn",
+      "iso_639_3": "kan",
+      "name": "Kannada",
+      "native_name": "ಕನ್ನಡ",
+      "native_script": "Kannada",
+      "script_code": "Knda",
+      "indictrans2_tag": "kan_Knda",
+      "indiclid_label_native": "kan_Knda",
+      "indiclid_label_roman": "kan_Latn",
+      "supports_romanized": true,
+      "is_user_facing": false,
+      "is_ayurveda_knowledge_source": false,
+      "domain_role": "supported_indic_language",
+      "special_domain_treatment": null
+    },
+    {
+      "code": "or",
+      "iso_639_3": "ory",
+      "name": "Odia",
+      "native_name": "ଓଡ଼ିଆ",
+      "native_script": "Odia",
+      "script_code": "Orya",
+      "indictrans2_tag": "ory_Orya",
+      "indiclid_label_native": "ori_Orya",
+      "indiclid_label_roman": "ori_Latn",
+      "supports_romanized": true,
+      "is_user_facing": false,
+      "is_ayurveda_knowledge_source": false,
+      "domain_role": "supported_indic_language",
+      "special_domain_treatment": null
+    },
+    {
+      "code": "pa",
+      "iso_639_3": "pan",
+      "name": "Punjabi",
+      "native_name": "ਪੰਜਾਬੀ",
+      "native_script": "Gurmukhi",
+      "script_code": "Guru",
+      "indictrans2_tag": "pan_Guru",
+      "indiclid_label_native": "pan_Guru",
+      "indiclid_label_roman": "pan_Latn",
+      "supports_romanized": true,
+      "is_user_facing": false,
+      "is_ayurveda_knowledge_source": false,
+      "domain_role": "supported_indic_language",
+      "special_domain_treatment": null
+    },
+    {
+      "code": "as",
+      "iso_639_3": "asm",
+      "name": "Assamese",
+      "native_name": "অসমীয়া",
+      "native_script": "Bengali",
+      "script_code": "Beng",
+      "indictrans2_tag": "asm_Beng",
+      "indiclid_label_native": "asm_Beng",
+      "indiclid_label_roman": "asm_Latn",
+      "supports_romanized": true,
+      "is_user_facing": false,
+      "is_ayurveda_knowledge_source": false,
+      "domain_role": "supported_indic_language",
+      "special_domain_treatment": null
+    },
+    {
+      "code": "ur",
+      "iso_639_3": "urd",
+      "name": "Urdu",
+      "native_name": "اردو",
+      "native_script": "Perso-Arabic",
+      "script_code": "Arab",
+      "indictrans2_tag": "urd_Arab",
+      "indiclid_label_native": "urd_Arab",
+      "indiclid_label_roman": "urd_Latn",
+      "supports_romanized": true,
+      "is_user_facing": false,
+      "is_ayurveda_knowledge_source": false,
+      "domain_role": "supported_indic_language",
+      "special_domain_treatment": null
+    }
+  ]
+}

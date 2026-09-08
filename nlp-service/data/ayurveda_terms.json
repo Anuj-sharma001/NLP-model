@@ -1,0 +1,246 @@
+{
+  "version": "1.0.0",
+  "domain": "Ayurveda",
+  "description": "SAKYTI Canonical Ayurvedic Terminology Database",
+  "updated_at": "2026-09-07T23:55:00Z",
+  "terms": [
+    {
+      "canonical_term": "Vata",
+      "sanskrit_form": "वात",
+      "iast": "vāta",
+      "hindi_forms": ["वात", "बाय"],
+      "english_canonical_form": "Vata",
+      "synonyms": ["Vayu", "Maruta", "Pavana", "Anila", "वायु", "मारुत", "पवन", "अनिल"],
+      "transliterations": ["vata", "vaata", "vatah", "vaatah", "vatha", "vatham", "vaatham", "waat", "vaat", "vat"],
+      "category": "Dosha",
+      "notes": "Governs all biological movement, cellular transport, nervous system impulses, breathing, and circulation. Primary of the Tridoshas.",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Sutrasthana 1.55", "Sushruta Samhita Sutrasthana 21.5", "Ashtanga Hridaya Sutrasthana 1.6"],
+        "standard_references": ["WHO Benchmarks for Training in Ayurveda", "NAMASTE Portal (Ayush)"],
+        "definition": "वा गतिगन्धनयोः - तत्र वायोः वातं सर्वशरीरचरं..."
+      }
+    },
+    {
+      "canonical_term": "Pitta",
+      "sanskrit_form": "पित्त",
+      "iast": "pitta",
+      "hindi_forms": ["पित्त", "पित"],
+      "english_canonical_form": "Pitta",
+      "synonyms": ["Tejas", "Pāvaka", "तेजस्", "पावक"],
+      "transliterations": ["pitta", "pittam", "pitham", "pitha", "pita", "pitt"],
+      "category": "Dosha",
+      "notes": "Responsible for metabolic transformation, biochemical reactions, digestion, thermoregulation, and intellect. One of the Tridoshas.",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Sutrasthana 1.56", "Sushruta Samhita Sutrasthana 21.9", "Ashtanga Hridaya Sutrasthana 1.7"],
+        "standard_references": ["WHO Benchmarks for Training in Ayurveda", "NAMASTE Portal (Ayush)"],
+        "definition": "तप संतापे - पित्तं पक्वपक्वाशयमध्यस्थं..."
+      }
+    },
+    {
+      "canonical_term": "Kapha",
+      "sanskrit_form": "कफ",
+      "iast": "kapha",
+      "hindi_forms": ["कफ", "बलगम"],
+      "english_canonical_form": "Kapha",
+      "synonyms": ["Shleshma", "Bala", "Soma", "श्लेष्मा", "श्लेष्म", "बल", "सोम"],
+      "transliterations": ["kapha", "kaf", "kafa", "shleshma", "sleshma", "shleshman", "kapham", "kaph"],
+      "category": "Dosha",
+      "notes": "Provides structural cohesion, tissue hydration, lubrication, biological strength, and immunity. One of the Tridoshas.",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Sutrasthana 1.57", "Sushruta Samhita Sutrasthana 21.14", "Ashtanga Hridaya Sutrasthana 1.8"],
+        "standard_references": ["WHO Benchmarks for Training in Ayurveda", "NAMASTE Portal (Ayush)"],
+        "definition": "श्लिष आलिङ्गने - कफः सोमगुणभूयिष्ठः..."
+      }
+    },
+    {
+      "canonical_term": "Prakriti",
+      "sanskrit_form": "प्रकृति",
+      "iast": "prakṛti",
+      "hindi_forms": ["प्रकृति"],
+      "english_canonical_form": "Prakriti",
+      "synonyms": ["Deha Prakriti", "Sharira Prakriti", "Swabhava", "देह प्रकृति", "स्वभाव"],
+      "transliterations": ["prakriti", "prakruti", "prakruthi", "prakrithi", "prakritih", "prakrati"],
+      "category": "Constitution",
+      "notes": "Innate psychosomatic constitution determined at the moment of conception; immutable biological baseline of Doshas.",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Vimanasthana 8.95-99", "Sushruta Samhita Sharirasthana 4.62"],
+        "standard_references": ["WHO Benchmarks for Training in Ayurveda", "CCRAS Guidelines"],
+        "definition": "शुक्रशोणितसंयोगे यो भवेद्दोष उत्कटः। प्रकृत्या जायते तेन..."
+      }
+    },
+    {
+      "canonical_term": "Vikriti",
+      "sanskrit_form": "विकृति",
+      "iast": "vikṛti",
+      "hindi_forms": ["विकृति"],
+      "english_canonical_form": "Vikriti",
+      "synonyms": ["Dosha Vaishamya", "Rogavastha", "दोष वैषम्य"],
+      "transliterations": ["vikriti", "vikruti", "vikruthi", "vikrithi", "vikritih", "vikrati"],
+      "category": "Pathology",
+      "notes": "Current physiological imbalance or pathological deviation from baseline constitutional Prakriti.",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Vimanasthana 8.100", "Ashtanga Hridaya Sutrasthana 1.19"],
+        "standard_references": ["WHO Benchmarks for Training in Ayurveda"],
+        "definition": "विकृतिस्तु धातुवैषम्यम्..."
+      }
+    },
+    {
+      "canonical_term": "Agni",
+      "sanskrit_form": "अग्नि",
+      "iast": "agni",
+      "hindi_forms": ["अग्नि", "पाचक अग्नि"],
+      "english_canonical_form": "Agni",
+      "synonyms": ["Jatharagni", "Pachakagni", "Koshthagni", "जाठराग्नि", "पाचकाग्नि"],
+      "transliterations": ["agni", "agnih", "jatharagni", "jataragni", "jaatharagni"],
+      "category": "Physiology",
+      "notes": "Internal biological fire governing macroscopic gastric digestion and microscopic cellular metabolic conversions.",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Chikitsasthana 15.3-4", "Ashtanga Hridaya Sharirasthana 3.49"],
+        "standard_references": ["WHO Benchmarks for Training in Ayurveda"],
+        "definition": "शान्तेऽग्नौ म्रियते, युक्ते चिरं जीवत्यनामयः..."
+      }
+    },
+    {
+      "canonical_term": "Ama",
+      "sanskrit_form": "आम",
+      "iast": "āma",
+      "hindi_forms": ["आम", "आम दोष"],
+      "english_canonical_form": "Ama",
+      "synonyms": ["Ama Dosha", "Apakva Anna Rasa", "आमदोष"],
+      "transliterations": ["ama", "aama", "aamam", "amam", "aamdosh"],
+      "category": "Pathology",
+      "notes": "Toxic, unassimilated metabolic byproduct arising from impaired Agni; prime etiologic factor in systemic disease pathogenesis.",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Chikitsasthana 15.51", "Ashtanga Hridaya Sutrasthana 13.25", "Madhava Nidana 25.1"],
+        "standard_references": ["WHO Benchmarks for Training in Ayurveda"],
+        "definition": "ऊष्मणोऽल्पबलत्वेन धातुमाद्यमपाचितम्। दुष्टमुदरगं प्राहुरामं संचयकर्मणाम्॥"
+      }
+    },
+    {
+      "canonical_term": "Ojas",
+      "sanskrit_form": "ओजस्",
+      "iast": "ojas",
+      "hindi_forms": ["ओज", "ओजस्"],
+      "english_canonical_form": "Ojas",
+      "synonyms": ["Bala", "Dhatu Sara", "Pranayatana", "ओज", "बल", "धातुसार"],
+      "transliterations": ["ojas", "oja", "ojah", "ojus", "ojasya"],
+      "category": "Physiology",
+      "notes": "Supreme physiological essence of all seven tissue layers (Dhatus) determining systemic immunity, vitality, and health.",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Sutrasthana 17.74", "Sushruta Samhita Sutrasthana 15.21", "Ashtanga Hridaya Sutrasthana 11.37"],
+        "standard_references": ["WHO Benchmarks for Training in Ayurveda"],
+        "definition": "रसादीनां शुक्रान्तानां धातूनां यत्परं तेजस्तत् खल्वोजस्तदेव बलमित्युच्यते..."
+      }
+    },
+    {
+      "canonical_term": "Dhatu",
+      "sanskrit_form": "धातु",
+      "iast": "dhātu",
+      "hindi_forms": ["धातु", "सप्तधातु"],
+      "english_canonical_form": "Dhatu",
+      "synonyms": ["Sapta Dhatu", "Dharana Poshanat Dhatavah", "सप्त धातु"],
+      "transliterations": ["dhatu", "dhaatu", "dhatus", "sapta dhatu", "saptadhatu", "dhatavah"],
+      "category": "Physiology",
+      "notes": "The seven structural and nutritional tissue strata: Rasa (plasma), Rakta (blood), Mamsa (muscle), Meda (adipose), Asthi (bone), Majja (marrow/nervous tissue), and Shukra (reproductive tissue).",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Chikitsasthana 15.16", "Sushruta Samhita Sutrasthana 14.10", "Ashtanga Hridaya Sutrasthana 1.13"],
+        "standard_references": ["WHO Benchmarks for Training in Ayurveda"],
+        "definition": "धारणाद्धात्वा उच्यन्ते शरीरधारका धातवः..."
+      }
+    },
+    {
+      "canonical_term": "Mala",
+      "sanskrit_form": "मल",
+      "iast": "mala",
+      "hindi_forms": ["मल", "त्रिमल"],
+      "english_canonical_form": "Mala",
+      "synonyms": ["Kitta", "Trimala", "Pureesha", "Mutra", "Sweda", "किट्ट", "त्रिमल"],
+      "transliterations": ["mala", "malam", "malah", "malas", "trimala"],
+      "category": "Physiology",
+      "notes": "Excretory biological waste products whose balanced evacuation sustains life: Pureesha (feces), Mutra (urine), and Sweda (sweat).",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Sutrasthana 28.4", "Sushruta Samhita Sutrasthana 14.1", "Ashtanga Hridaya Sutrasthana 1.13"],
+        "standard_references": ["WHO Benchmarks for Training in Ayurveda"],
+        "definition": "मलिनीकरणात् मलाः..."
+      }
+    },
+    {
+      "canonical_term": "Tridosha",
+      "sanskrit_form": "त्रिदोष",
+      "iast": "tridoṣa",
+      "hindi_forms": ["त्रिदोष"],
+      "english_canonical_form": "Tridosha",
+      "synonyms": ["Sharira Dosha", "Vata-Pitta-Kapha", "त्रिदोष", "शारीरिक दोष"],
+      "transliterations": ["tridosha", "tridosham", "thridosha", "tridosas", "tridoshas"],
+      "category": "Dosha",
+      "notes": "The triad of primary bio-energetic forces (Vata, Pitta, Kapha) governing somatic physiology and pathological tendencies.",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Sutrasthana 1.57", "Sushruta Samhita Sutrasthana 21.3", "Ashtanga Hridaya Sutrasthana 1.6"],
+        "standard_references": ["WHO Benchmarks for Training in Ayurveda"],
+        "definition": "वायुः पित्तं कफश्चोक्तः शारीरो दोषसंग्रहः..."
+      }
+    },
+    {
+      "canonical_term": "Triphala",
+      "sanskrit_form": "त्रिफला",
+      "iast": "triphalā",
+      "hindi_forms": ["त्रिफला", "त्रिफला चूर्ण"],
+      "english_canonical_form": "Triphala",
+      "synonyms": ["Phalatrikam", "Vara", "त्रिफला", "फलत्रिक"],
+      "transliterations": ["triphala", "trifala", "thriphala", "triphalaa", "thrifala", "tripala"],
+      "category": "Herbology / Dravyaguna",
+      "notes": "Eminent classical multi-herbal compound formulation composed of Haritaki, Bibhitaki, and Amalaki fruits in equal ratio.",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Chikitsasthana 1.3.41", "Sushruta Samhita Sutrasthana 38.56", "Sharngadhara Samhita Madhyama Khanda 6.12"],
+        "standard_references": ["Ayurvedic Pharmacopoeia of India (API)", "Ayurvedic Formulary of India (AFI)"],
+        "definition": "हरीतकी बिभीतकमामलकं चेति त्रिफला..."
+      }
+    },
+    {
+      "canonical_term": "Ashwagandha",
+      "sanskrit_form": "अश्वगन्धा",
+      "iast": "aśvagandhā",
+      "hindi_forms": ["अश्वगंधा", "अश्वगन्धा", "असगंध"],
+      "english_canonical_form": "Ashwagandha",
+      "synonyms": ["Withania somnifera", "Hayagandha", "Vajigandha", "Balada", "हयगन्धा", "वाजिगन्धा"],
+      "transliterations": ["ashwagandha", "ashvagandha", "aswagandha", "asvagandha", "asgandh", "ashwagandhar"],
+      "category": "Herbology / Dravyaguna",
+      "notes": "Renowned adaptogen and Rasayana botanical (Withania somnifera); revitalizes Ojas, pacifies aggravated Vata, and fortifies nervous tissues.",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Chikitsasthana 1.2.13", "Sushruta Samhita Sutrasthana 39.4", "Bhavaprakasha Nighantu Guduchyadi Varga 189"],
+        "standard_references": ["Ayurvedic Pharmacopoeia of India (API) Part I, Vol I", "WHO Monographs on Selected Medicinal Plants Vol 4"],
+        "definition": "अश्वस्येव गन्धोऽस्या अश्वा वा गन्धो यस्याः सा अश्वगन्धा..."
+      }
+    },
+    {
+      "canonical_term": "Panchakarma",
+      "sanskrit_form": "पञ्चकर्म",
+      "iast": "pañcakarma",
+      "hindi_forms": ["पंचकर्म", "पञ्चकर्म"],
+      "english_canonical_form": "Panchakarma",
+      "synonyms": ["Shodhana Chikitsa", "Panchakarmas", "शोधन चिकित्सा"],
+      "transliterations": ["panchakarma", "panchkarma", "panchakarmam", "panch karma", "pancakarma"],
+      "category": "Therapy / Chikitsa",
+      "notes": "Five radical bio-cleansing and cellular therapeutic therapies: Vamana, Virechana, Basti, Nasya, and Raktamokshana.",
+      "do_not_translate": true,
+      "provenance": {
+        "classical_texts": ["Charaka Samhita Siddhisthana 2.15", "Sushruta Samhita Chikitsasthana 33.3", "Ashtanga Hridaya Sutrasthana 14.4"],
+        "standard_references": ["WHO Benchmarks for Training in Ayurveda", "CCRAS Guidelines"],
+        "definition": "वमनं विरेचनं बस्तिर्नस्यं रक्तविमोक्षणम्। पञ्चकर्मेति विख्यातं..."
+      }
+    }
+  ]
+}
