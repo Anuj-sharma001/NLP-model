@@ -53,11 +53,11 @@ router = APIRouter(
             "model": ErrorResponse,
             "description": "Bad Request / Unsupported Language / Invalid Parameter",
         },
-        status.HTTP_413_REQUEST_ENTITY_TOO_LARGE: {
+        status.HTTP_413_CONTENT_TOO_LARGE: {
             "model": ErrorResponse,
             "description": "Payload Exceeds Maximum Length Limit",
         },
-        status.HTTP_422_UNPROCESSABLE_ENTITY: {
+        status.HTTP_422_UNPROCESSABLE_CONTENT: {
             "model": ErrorResponse,
             "description": "Validation Error in Request Payload",
         },
@@ -265,7 +265,7 @@ async def nlp_translate(
     except TranslationInputTooLongError as exc:
         logger.warning(f"Input too long in NLP translate [{req_id}]: {exc}")
         raise HTTPException(
-            status_code=status.HTTP_413_REQUEST_ENTITY_TOO_LARGE,
+            status_code=status.HTTP_413_CONTENT_TOO_LARGE,
             detail=str(exc),
         )
     except TranslationModelNotLoadedError as exc:

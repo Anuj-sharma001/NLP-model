@@ -108,7 +108,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             extra={"path": str(request.url.path), "method": request.method, "request_id": req_id},
         )
         return JSONResponse(
-            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            status_code=status.HTTP_422_UNPROCESSABLE_CONTENT,
             content={
                 "error": {
                     "code": "VALIDATION_ERROR",
